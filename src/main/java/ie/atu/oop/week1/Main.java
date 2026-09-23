@@ -4,7 +4,14 @@ package ie.atu.oop.week1;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hello world");
+
+        book firstbook = new book();
+        firstbook.title = "dune";
+        firstbook.author = "frank herbert";
+        firstbook.pageCount =412;
+
+        firstbook.displaydetails();
+
 
         }
     }

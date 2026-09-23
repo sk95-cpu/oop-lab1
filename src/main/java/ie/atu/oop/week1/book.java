@@ -5,6 +5,14 @@ public class book {
     public String author;
     public int pageCount;
     public boolean available =  true;
+
+    public void displaydetails()
+    {
+        System.out.println("book title: " + title);
+        System.out.println("book author: " + author);
+        System.out.println("book page count: " + pageCount);
+        System.out.println("book available: " + available);
+    }
     }
 
 
