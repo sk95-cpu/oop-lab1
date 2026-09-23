@@ -23,9 +23,9 @@ public class Main {
         Book thirdBook = createBook("Another Book Code", "John Murphy",333);
         Book FourthBook = createBook("Student Life", "Mary Shelly", 442);
 
-        secondBook.displaydetails();
+        secondBook.displayDetails();
         System.out.println("\n");
-        thirdBook.displaydetails();
+        thirdBook.displayDetails();
         System.out.println("\n");
         fourthBook.displayDetails();
 
